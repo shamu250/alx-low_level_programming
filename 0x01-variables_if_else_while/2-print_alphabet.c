@@ -7,7 +7,7 @@
  * this program prints "the alphabet in lowercase, folloed by a new line
  * Return: 0
  */
-itn main(void)
+int main(void)
 {
 	char ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
