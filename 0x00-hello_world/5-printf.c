@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- /**
+/**
   * main - print the string in the printf function
   *
   * Description: using the main function
@@ -9,6 +9,6 @@
   */
 int main(void)
 {
-	puts("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
