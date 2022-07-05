@@ -9,7 +9,7 @@
  * this program prints "A random number to the variables n each it is executed
  * Return: 0
  */
-int main
+int main(void)
 {
 	int n;
 	int l;
