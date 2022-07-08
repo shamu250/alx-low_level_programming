@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * times_table - functions that prints 9 times table
  * Return: 0
  */
