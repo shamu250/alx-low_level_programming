@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * main - function to print
+ * main - print "_putchar" followed by a new line.
  *
  * Return: 0
  */
 int main(void)
 {
-	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	unsigned int c;
+	char put[] = "_putchar";
+	int i = 0;
 
-	for (c = 0; c < sizeof(_putchar); c++)
+	while (put[i] != '\0')
 	{
-		_putchar(_putchar[c]);
+		_putchar(put[i]);
+		i++;
 	}
-_putchar('\n');
-return (0);
+	_putchar('\n');
+	return (0);
 }
