@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet_x10(void) - function to print abc 10 times
- *
+ * @c: is the int taht will use for the argument of the function
  * Return: 0
  */
 void print_alphabet_x10(void)
