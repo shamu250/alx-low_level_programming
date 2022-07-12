@@ -2,12 +2,14 @@
 /**
  * _isupper - functions that checks for uppercases
  * @c: int type number
- * Return: 1 if uppercase, else 0
+ * Return: 0
  */
 int _isupper(int c)
 {
-	if (c > 64 && c < 91)
+	if (c >= 65 && c <= 90)
+	{
 		return (1);
-	
-	return (0);
+	}
+	else
+		return (0);
 }
