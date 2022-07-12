@@ -12,3 +12,5 @@ void print_line(int n);
 void print_square(int size);
 void print_triangle(int size);
 void print_numbers(int n);
+
+#endif
