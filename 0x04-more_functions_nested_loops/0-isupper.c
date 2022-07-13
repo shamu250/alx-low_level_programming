@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - functions that checks for uppercases
  * @c: int type number
