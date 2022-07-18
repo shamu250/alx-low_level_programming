@@ -9,7 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	intr i, c;
+	int i, c;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
@@ -22,4 +22,3 @@ char *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
