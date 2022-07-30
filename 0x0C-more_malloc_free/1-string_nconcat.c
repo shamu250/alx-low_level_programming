@@ -1,13 +1,13 @@
 #include "main.h"
-#include <stdlib.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
- * string_nconcat - concatenate 2 strings, only n bytes of s2
- * @s1: string 1
- * @s2: string 2
- * @n: bytes to include if s2
- * Return: pointer
+ * string_nconcat -> this is string concatenation.
+ * @s1: param 1
+ * @s2: param 2
+ * @n: param 3
+ * Return: string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -18,16 +18,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (i = 0; s1[index]; index++)
+	for (index = 0; s1[index]; index++)
 		len++;
-	concat = (char *)malloc(sizeof(char) * (len + 1);
-
+	concat = (char *)malloc(sizeof(char) * len + 1);
 	if (concat == NULL)
 		return (NULL);
 	len = 0;
-	for (i = 0; s1[index]; index++)
+	for (index = 0; s1[index]; index++)
 		concat[len++] = s1[index]
-	for (i = 0; s2[index] && index < n; index++)
+	for (index = 0; s2[index] && index < n; index++)
 		concat[len++] = s2[index];
 	
 	concat[len] = '\0';
