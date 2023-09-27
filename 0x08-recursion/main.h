@@ -9,4 +9,7 @@ char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
+int _sqrt_recursion(int n);
+int helper(int n, int i);
+int is_prime_number(int n);
 int helper_prime(int n, int i, int limit);
